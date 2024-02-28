@@ -8,7 +8,7 @@
 #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
@@ -19,7 +19,8 @@
 }
 
 .piko-img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
     border-radius: 1em;
 }
 
@@ -35,6 +36,18 @@
 .piko-name {
     font-family: "copperplate", fantasy;
     font-size: 1.5em;
+}
+
+.pikomon-list {
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+
+.pikomon-card {
+    width: 30%;
+    height: auto;
+    border: black solid 1px;
 }
 
 .piko-abilities {

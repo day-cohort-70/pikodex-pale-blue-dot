@@ -9,9 +9,9 @@ export const renderPikomon = () => {
 
     for (const pikomon of pikomonList) {
         htmlString += `<section class="pikomon-card">
-        <div><img src="${pikomon.imageUrl}" class="pikomon-image"></div>
+        <div><img src="${pikomon.imageUrl}" class="piko-img"></div>
 
-        <div class="pikomon-name" >Name: ${pikomon.name}</div>
+        <div class="piko-name">${pikomon.name}</div>
 
         <div class="categories">Category: ${pikomon.category}</div>
 
